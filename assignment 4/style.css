@@ -1,0 +1,57 @@
+section
+{
+    
+    background-image: url('https://img.freepik.com/free-photo/close-up-business-people-hands-together-teamwork-concept_1150-2583.jpg?w=996&t=st=1694187508~exp=1694188108~hmac=b05b8d3d61ae7ba0e464e63a5934cfdf71a53d22343400ca394e33ba17b8259c');
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center center;
+    text-align: center;
+}
+p{
+    margin: 0 0 0 0;
+}
+.suc
+{
+    font-size: 70px;
+    /* font-weight:900; */
+    font-family: 'Poppins';
+    letter-spacing: 15px;
+    text-shadow: 2px 0 black;
+    font-weight:900;
+    
+    
+
+}
+
+.content{
+    padding-top: 30px;
+}
+
+.content .l1{
+    font-family: 'Poppins';
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing:2px;
+    text-transform: uppercase;
+
+}
+.l2
+{
+    font-family: 'Poppins';
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+.btn
+{
+    margin: 20px 0 0 0;
+    
+}
+button
+{
+    
+    padding: 6px 17px 6px 17px;
+    background-color: black;
+    color: aliceblue;
+    border: 1px grey;
+}
