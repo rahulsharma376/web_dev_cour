@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600;700&family=Lexend+Deca:wght@100;200;300;400;500;600;700&family=Montserrat:wght@400;700&family=Mulish:wght@300&family=Poppins:wght@300;400;600&family=Urbanist:wght@300;400;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+:root {
+    --bs-main-color: #fff;
+    --bs-nav-color: #4b53ab;
+    --bs-hero-color: #515aba;
+    --bs-service-color: #3d3c4f;
+}
+
+.navbar nav {
+    padding: 0 10 0 10;
+}
+
+.bg-main {
+    background-color: var(--bs-nav-color);
+    padding-right: 20rem !important;
+    padding-left: 20rem !important;
+}
+
+.nav-link {
+    color: var(--bs-main-color);
+}
+
+.nav-link:hover {
+    color: rgba(173, 166, 166, 0.769) !important;
+}
+
+/* hero-section starts  */
+.more-info-section {
+    background-image: linear-gradient(rgba(81, 90, 186, 0.7), rgba(81, 90, 186, 0.8)), url("../Images/Screenshot\ 2023-09-23\ 123654.png");
+    background-size: cover;
+    background-position: no-repeat;
+    background-attachment: fixed;
+    padding: 10rem 24rem;
+    overflow: hidden;
+}
+
+h1 {
+    font-size: 80px;
+    line-height: 1;
+}
+
+.size {
+    font-size: 90px !important;
+}
+
+h5 {
+    letter-spacing: 0.2rem;
+}
+
+/* hero-section ends  */
+
+
+/* services-section starts  */
+.service-section {
+    background-color: var(--bs-service-color);
+    padding: 3rem 20rem;
+
+}
+
+.our {
+    padding-bottom: 50px;
+}
+
+.ruler {
+    position: relative;
+    height: 20px;
+    width: 65px;
+    border: none;
+    top: 20px;
+    background-color: #fff;
+    opacity: 1;
+    margin-bottom: 40px;
+}
+
+.short-ruler {
+    position: relative;
+    height: 10px;
+    width: 40px;
+    border: none;
+    top: 10px;
+    opacity: 1;
+    background-color: var(--bs-nav-color);
+}
+
+.creative {
+    padding: 0px 200px;
+}
+
+/* services-section ends  */
+
+
+/* about-section starts  */
+
+.about-section {
+    height: 600px;
+    background-color: var(--bs-main-color);
+    background-image: linear-gradient(rgb(255, 255, 255, 0.8), rgb(255, 255, 255, 0.8)), url("../Images/happy-gay-couple-sitting-wooden-bench-park.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 3rem 20rem;
+}
+
+.about-ruler {
+    position: relative;
+    height: 20px;
+    width: 65px;
+    border: none;
+    top: 20px;
+    background-color: var(--bs-nav-color);
+    opacity: 1;
+    margin-bottom: 40px;
+}
+
+.about {
+    line-height: 1.6em;
+    font-size: 16px;
+    font-weight: 50;
+
+}
+
+/* about-section ends  */
+
+
+/* work-section ends  */
+
+.work-section {
+    background-color: var(--bs-main-color);
+    padding: 3rem 20rem;
+}
+
+.img-work {
+    width: 100%;
+    padding: auto !important;
+    margin: auto !important;
+}
+
+/* work-section ends  */
+
+
+/* clients-section ends  */
+.clients-section {
+    height: 100%;
+    padding: 3rem 20rem;
+}
+
+/* clients-section ends  */
+
+
+/* team-section ends  */
+
+.team-section{
+    height: 100%;
+    padding: 3rem 20rem;
+    color: rgb(218, 218, 218);
+}
+.team-img{
+    width: 25%;
+}
+/* team-section ends  */
